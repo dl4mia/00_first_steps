@@ -17,6 +17,6 @@ conda install jupyter
 
 Clone this repository:
 ```
-git clone https://github.com/dl4mia/01_ml_dl.git
+git clone https://github.com/dl4mia/00_connection.git
 ```
 Finally run the jupyter notebook with port forwarding!
