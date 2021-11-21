@@ -12,7 +12,7 @@ conda activate 00_connect
 Install the following package
 
 ```
-conda install jupyter nb_conda
+conda install numpy jupyter
 ```
 
 Clone this repository:
