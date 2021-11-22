@@ -1,22 +1,7 @@
 # Exercise 0: Running a Jupyter notebook on the HPC
 
-## Setup
+Please follow the instructions in the exercise sheet in [google doc](https://docs.google.com/document/d/1ibsp0fd-QmIW9erq54NswjC643I_DzF90rWEhPggJAo/edit?usp=sharing).
 
-Create a `conda` environment for this exercise and activate it:
+Let us know if you run into any trouble.
 
-```
-conda create -n 00_connect python==3.8
-conda activate 00_connect
-```
-
-Install the following package
-
-```
-conda install numpy jupyter
-```
-
-Clone this repository:
-```
-git clone https://github.com/dl4mia/00_connection.git
-```
-Finally run the jupyter notebook with port forwarding!
+Good luck!
