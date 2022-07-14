@@ -1,3 +1,12 @@
+
+
+
+
+# 00 - First steps
+
+This repository contain the first set of exercises of the DL4MIA 2022 course. The introduction and exercise sheet are available here: [00 First steps](https://tinyurl.com/m8b4hyp5).
+
+
 ## Clone the repository
 
 1. On your virtual machine, open a terminal.
@@ -121,7 +130,7 @@ If the VDI interface is too slow, you might have better experience forwarding on
     $ ssh <user.name>@<ip> -L 8888:localhost:8888
     ```
     
-    where `[user.name](http://user.name)` is your username and `ip` is the IP obtained during the [**connection tutorial**](https://tinyurl.com/bdh744s3). If the IP changed (for instance if you logged out the VDI), refer to the tutorial to get the new one.
+    where `user.name` is your username and `ip` is the IP obtained during the [**connection tutorial**](https://tinyurl.com/bdh744s3). If the IP changed (for instance if you logged out the VDI), refer to the tutorial to get the new one.
     
     `-L` allows sending the information from a remote port to a local port. Here basically the parameters are `<local port>:<remote host>:<remote port>`. So if you started your `jupyter notebook` on the VDI on port `8889`, you should type `8888:localhost:8889`. 
     
@@ -130,6 +139,6 @@ If the VDI interface is too slow, you might have better experience forwarding on
     
 6. Finally, on your local browser, connect to
     
-    *[**http://localhost:8888](http://localhost:8888)*** 
+    ***http://localhost:8888*** 
     
     where 888 is the `local port` (if you did the `ssh` port forwarding with another local port number, then you will have to update the link accordingly.
