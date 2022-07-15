@@ -7,4 +7,4 @@ Welcome to the DL4MIA 2022 first exercise: 00 - First steps. In this set of exer
 The introduction and exercise sheet are available here: [00 First steps](https://tinyurl.com/m8b4hyp5).
 
 
-[Return to the main Course page](https://tinyurl.com/7z8jxx2w)
+[Return to the Course's main page](https://tinyurl.com/7z8jxx2w)
