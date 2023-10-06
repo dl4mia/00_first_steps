@@ -12,7 +12,7 @@ In these first exercises of the Course, we will introduce a few tools that will 
 
 ## Connection
 
-The entire DL4MIA course exercises will take place in the VDI virtual machines. If you haven’t done so before, follow the [**connection tutorial**](https://tinyurl.com/bdh744s3).
+The entire DL4MIA course exercises will take place in the VDI virtual machines. If you haven’t done so before, follow the **[connection tutorial](https://tinyurl.com/bdh744s3)**.
 
 Otherwise, connect to the your VDI using VMWare.
 
@@ -21,17 +21,14 @@ Otherwise, connect to the your VDI using VMWare.
 Here are a few important notes about using the VDI:
 
 - r2d2 is the IT account, if your username is not listed, click on “not listed?” and enter your username without the @external.fht.org.
-- You do not need to be connected by VPN to use the VDI.
-- If you have trouble reaching the VDI (black screen then disconnection), let us know. In the meantime, you can use the [**http interface](https://vdi.fht.org/portal/webclient/index.html#/).**
+- If you have trouble reaching the VDI (black screen then disconnection), let us know. In the meantime, you can use the **[http interface](https://vdi.fht.org/portal/webclient/index.html#/)**.
 - You do not need to log out from your VDI, you can simply close VMWare.
-- If you log out, all unsaved progress will not be saved. Saved documents will still be in the same state. Logging out causes the VDI machine to be destroyed, while all your saved files are living in your `/home/` space somewhere else.
+- You do not need to be connected by VPN to use the VDI.
 
-If your connection to the VDI is slow, the window might seem unresponsive. In this case, we recommend using **[port forwarding](https://www.notion.so/00-First-steps-bf91b3c5de4542b687a10920e6a388ea).** In such case:
+If your connection to the VDI is slow, the window might seem unresponsive. In this case, we recommend using **[port forwarding](https://www.notion.so/00-First-steps-bf91b3c5de4542b687a10920e6a388ea)**. In such case:
 
 - In order to use SSH port forwarding, you need to be connected to the VPN.
-- The VDI machine can only be reached if you are still logged in (VMWare can be closed, but you should not have logged out).
 - If you logged out from the machine, you will need to start VMWare again.
-- If you logged out, the IP address might change. You will need to repeat the procedure from the [**connection tutorial**](https://tinyurl.com/bdh744s3).
 
 ## Notes about the exercises
 
