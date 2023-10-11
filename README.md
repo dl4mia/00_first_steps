@@ -4,7 +4,7 @@
 Welcome to the DL4MIA 2023 first exercise: 00 - First steps. In this set of exercises, we will ease out into the scientific use of Python for image analysis by manipulating a stack of images, saving and loading it. Additional optional exercises are available in the exercise sheet for those who are fast!
 
 
-The introduction and exercise sheet are available here: [00 First steps](https://tinyurl.com/m8b4hyp5).
+The introduction and exercise sheet are available here: [00 First steps](https://tinyurl.com/28krb4ys).
 
 
-[Return to the Course's main page](https://tinyurl.com/7z8jxx2w)
+[Return to the Course's main page](https://tinyurl.com/33y2b2hk)
