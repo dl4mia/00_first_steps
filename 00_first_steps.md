@@ -1,6 +1,6 @@
-# 00 - First steps
+# DL4MIA 2023: 00 - First steps
 
-[**Return to the Welcome page**](https://tinyurl.com/7z8jxx2w)
+**[Return to the Welcome page](https://tinyurl.com/33y2b2hk)**
 
 In these first exercises of the Course, we will introduce a few tools that will be used throughout the week (git, conda, jupyter, numpy, tifffile).
 
@@ -12,7 +12,7 @@ In these first exercises of the Course, we will introduce a few tools that will 
 
 ## Connection
 
-The entire DL4MIA course exercises will take place in the VDI virtual machines. If you haven’t done so before, follow the **[connection tutorial](https://tinyurl.com/bdh744s3)**.
+The entire DL4MIA course exercises will take place in the VDI virtual machines. If you haven’t done so before, follow the **connection tutorial**.
 
 Otherwise, connect to the your VDI using VMWare.
 
@@ -21,22 +21,23 @@ Otherwise, connect to the your VDI using VMWare.
 Here are a few important notes about using the VDI:
 
 - r2d2 is the IT account, if your username is not listed, click on “not listed?” and enter your username without the @external.fht.org.
-- If you have trouble reaching the VDI (black screen then disconnection), let us know. In the meantime, you can use the **[http interface](https://vdi.fht.org/portal/webclient/index.html#/)**.
-- You do not need to log out from your VDI, you can simply close VMWare.
 - You do not need to be connected by VPN to use the VDI.
+- If you have trouble reaching the VDI (black screen then disconnection), let us know. In the meantime, you can use the **http interface.**
+- You do not need to log out from your VDI, you can simply close VMWare.
+- If you log out, all unsaved progress will not be saved. Saved documents will still be in the same state. Logging out causes the VDI machine to be destroyed, while all your saved files are living in your `/home/` space somewhere else.
 
-If your connection to the VDI is slow, the window might seem unresponsive. In this case, we recommend using **[port forwarding](https://www.notion.so/00-First-steps-bf91b3c5de4542b687a10920e6a388ea)**. In such case:
+If your connection to the VDI is slow, the window might seem unresponsive. In this case, we recommend using **[port forwarding](https://www.notion.so/DL4MIA-2023-00-First-steps-6cf90dfbd9a6419ab9772b695c0e001e?pvs=21).** In such case:
 
 - In order to use SSH port forwarding, you need to be connected to the VPN.
+- The VDI machine can only be reached if you are still logged in (VMWare can be closed, but you should not have logged out).
 - If you logged out from the machine, you will need to start VMWare again.
+- If you logged out, the IP address might change. You will need to repeat the procedure from the **connection tutorial**.
 
 ## Notes about the exercises
 
 All exercises for the course can be found in the [**DL4MIA**](https://github.com/dl4mia) github organization page. Each repository has an exercise sheet detailing the instructions for downloading and installing the exercises.
 
 For now, we will follow the first set of exercises from this repository:
-
-https://github.com/dl4mia/00_first_steps
 
 ## Clone the repository
 
@@ -161,7 +162,7 @@ If the VDI interface is too slow, you might have better experience forwarding on
     $ ssh <user.name>@<ip> -L 8888:localhost:8888
     ```
     
-    where `[user.name](http://user.name)` is your username and `ip` is the IP obtained during the [**connection tutorial**](https://tinyurl.com/bdh744s3). If the IP changed (for instance if you logged out the VDI), refer to the tutorial to get the new one.
+    where `[user.name](http://user.name)` is your username and `ip` is the IP obtained during the **connection tutorial**. If the IP changed (for instance if you logged out the VDI), refer to the tutorial to get the new one.
     
     `-L` allows sending the information from a remote port to a local port. Here basically the parameters are `<local port>:<remote host>:<remote port>`. So if you started your `jupyter notebook` on the VDI on port `8889`, you should type `8888:localhost:8889`. 
     
