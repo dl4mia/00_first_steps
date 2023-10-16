@@ -25,13 +25,7 @@ Here are a few important notes about using the VDI:
 - If you have trouble reaching the VDI (black screen then disconnection), let us know. In the meantime, you can use the **http interface.**
 - You do not need to log out from your VDI, you can simply close VMWare.
 - If you log out, all unsaved progress will not be saved. Saved documents will still be in the same state. Logging out causes the VDI machine to be destroyed, while all your saved files are living in your `/home/` space somewhere else.
-
-If your connection to the VDI is slow, the window might seem unresponsive. In this case, we recommend using **[port forwarding](https://www.notion.so/DL4MIA-2023-00-First-steps-6cf90dfbd9a6419ab9772b695c0e001e?pvs=21).** In such case:
-
-- In order to use SSH port forwarding, you need to be connected to the VPN.
 - The VDI machine can only be reached if you are still logged in (VMWare can be closed, but you should not have logged out).
-- If you logged out from the machine, you will need to start VMWare again.
-- If you logged out, the IP address might change. You will need to repeat the procedure from the **connection tutorial**.
 
 ## Notes about the exercises
 
@@ -133,44 +127,3 @@ If you are done with the exercises, check-out the optional exercises on this pag
 ## (Optional) Load your own images
 
 Try loading your own images, this will be useful for the project time at the end of the week.
-
-## (Optional) Port-forward notebooks from the VDI
-
-If the VDI interface is too slow, you might have better experience forwarding only the `jupyter notebook` data to your computer, rather than the whole VDI interface. To do so, we need to connect to the VPN and create an encrypted tunnel between your **local machine** and the **remote VDI**, all the while **port forwarding** the jupyter data. 
-
-1. First, make sure you are connected to the **VPN** and that you know the **current IP address** of your virtual machine.
-2. Close the jupyter server (`CTRL` + `c` ) in the terminal window that you used to start it.
-3. Set a password (important when you send data over the internet):
-    
-    ```bash
-    $ jupyter notebook password
-    ```
-    
-    Enter an easy to remember password.
-    
-4. Restart the jupyter server using the following command:
-    
-    ```bash
-    $ jupyter notebook --no-browser --port=8888 --ip 0.0.0.0
-    ```
-    
-    This runs the `jupyter notebook` headless on the local port 8888.
-    
-5. In your local terminal (on your own computer), connect to the VDI machine via SSH using the port forwarding flag:
-    
-    ```bash
-    $ ssh <user.name>@<ip> -L 8888:localhost:8888
-    ```
-    
-    where `[user.name](http://user.name)` is your username and `ip` is the IP obtained during the **connection tutorial**. If the IP changed (for instance if you logged out the VDI), refer to the tutorial to get the new one.
-    
-    `-L` allows sending the information from a remote port to a local port. Here basically the parameters are `<local port>:<remote host>:<remote port>`. So if you started your `jupyter notebook` on the VDI on port `8889`, you should type `8888:localhost:8889`. 
-    
-    > **Note**: if you are already running a `jupyter notebook` locally, the port `8888` will be taken, and you will have to specify another local port: `8890:localhost:8888` (where the VDI jupyter port is 8888, and the local port 8890).
-    > 
-    
-6. Finally, on your local browser, connect to
-    
-    *[**http://localhost:8888](http://localhost:8888)*** 
-    
-    where 8888 is the `local port` (if you did the `ssh` port forwarding with another local port number, then you will have to update the link accordingly.
