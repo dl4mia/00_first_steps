@@ -5,21 +5,10 @@
 # First steps
 
 
-Welcome to the DL4MIA 2024 first exercise! In this set of exercises, we will ease out into the scientific use of Python for image analysis by manipulating a stack of images, saving and loading it. Additional optional exercises are available in the exercise sheet for those who are fast!
-
+Welcome to the DL4MIA 2024 first exercise! In this set of exercises, we will set up the VDI!
 
 # DL4MIA 2023: 00 - First steps
 
-
-In these first exercises of the Course, we will introduce a few tools that will be used throughout the week (git, conda, jupyter, numpy, tifffile).
-
-## Content
-
-1. Connection
-2. Notes about using the VDI
-3. Notes about the exercises
-
-## Connection
 
 The entire DL4MIA course exercises will take place in the VDI virtual machines. 
 
@@ -64,37 +53,8 @@ What's `mamba`? If you've heard about `conda` then it is the same, just usually 
 
 ### Test mamba
 
-Close your terminal, and repo open it. Then run the following command:
+Close your terminal, and re-open it. Then run the following command:
 
 ```bash
 mamba --version
 ```
-
-### Set up the environment for the first step exercise
-
-It is now time to turn to the first exercises! As for all other exercises, there is a setup script to run first. Please run the setup script to create the environment for these exercises and download data.
-
-``` bash
-cd 00_first_steps
-source setup.sh
-```
-
-When you are ready to start the exercise, make sure you are in your base environment and then run jupyter lab.
-
-
-## Exercises
-
-The exercises are contained in the `00_Write_an_load_images.ipynb` notebook. Open it by typing the following command in your terminal:
-
-```bash
-$ jupyter lab
-```
-
-A new window should open in the browser. Click on the `00_Write_an_load_images.ipynb` notebook to open it and follow the exercises!
-
-If you are done with the exercises, check-out the optional exercises on this page.
-
-## (Optional) Load your own images
-
-Try loading your own images, this will be useful for the project time at the end of the week.
-
