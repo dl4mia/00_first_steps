@@ -43,7 +43,8 @@ All exercises for the course can be found in the [**DL4MIA**](https://github.com
 
 ### Clone all the course exercises
 
-Open the [**main DL4MIA repository**](https://github.com/dl4mia/DL4MIA_2024/tree/main). Let's follow the instructions there to set up the exercises:
+Open the [**main DL4MIA repository**](https://github.com/dl4mia/DL4MIA_2024/tree/main). Let's follow the instructions there to set up the exercises,
+open your terminal and type:
 
 ```bash
 cd /localscratch/
@@ -60,6 +61,14 @@ source setup.sh
 ```
 
 What's `mamba`? If you've heard about `conda` then it is the same, just usually faster. It is a python environment and package manager that will help us install different sets of packages in parallel for each exercise.
+
+### Test mamba
+
+Close your terminal, and repo open it. Then run the following command:
+
+```bash
+mamba --version
+```
 
 ### Set up the environment for the first step exercise
 
