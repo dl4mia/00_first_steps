@@ -56,8 +56,16 @@ What's `mamba`? If you've heard about `conda` then it is the same, just usually 
 
 ### Test mamba
 
-Restart terminal by typing `exec bash`
-
+Restart terminal by typing 
+```bash
+exec bash
+```
+Use the following command to make sure mamba is indeed in `localscratch` folder 
 ```bash
 whereis mamba
 ```
+### Important point
+Don't try to shut down the machine ! <br />
+<img width="312" alt="Screenshot 2024-05-08 at 09 54 36" src="https://github.com/dl4mia/00_first_steps/assets/16350783/fcf7af09-f645-4bbe-a904-fa88e85f92cc">
+
+
