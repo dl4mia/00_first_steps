@@ -57,7 +57,7 @@ source setup.sh
 
 What's `mamba`? If you've heard about `conda` then it is the same, just usually faster. It is a python environment and package manager that will help us install different sets of packages in parallel for each exercise.
 
-### Test mamba
+### Test mamba and install Jupyter Lab
 
 Restart terminal by typing 
 ```bash
@@ -67,6 +67,13 @@ Use the following command to make sure mamba is indeed in `localscratch` folder
 ```bash
 whereis mamba
 ```
+
+We'll be doing most of our exercises in Jupyter Lab, so let's install that in our base so it's always available. 
+
+```bash
+mamba install jupyterlab
+```
+
 ### Important point
 Don't try to shut down the machine ! <br />
 <img width="312" alt="Screenshot 2024-05-08 at 09 54 36" src="https://github.com/dl4mia/00_first_steps/assets/16350783/fcf7af09-f645-4bbe-a904-fa88e85f92cc">
