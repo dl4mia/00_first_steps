@@ -19,6 +19,8 @@ Here are a few important notes about using the VDI:<br />
 <br />
 - Log in using your username and password and select EMBO-DL4MIA machine.
 - If you have trouble reaching the VDI (black screen then disconnection), let us know.
+- Open a terminal <br />
+<img width="316" alt="Screenshot 2024-05-08 at 09 43 52" src="https://github.com/dl4mia/00_first_steps/assets/16350783/93aca7ee-6110-4404-bc67-3f2db904c94d">
 - Your `/home/` (the folder with your name in it) is on the central storage, which is very slow. We have access to a faster storage `/localscratch/` that you can use for the exercises!
 - We also have a place to share data in `/group/dl4miacourse/`, be aware that permissions should be set so that other people can access it. Ask the tutors!
 
