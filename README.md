@@ -7,8 +7,7 @@
 
 Welcome to the DL4MIA 2024 first exercise! In this set of exercises, we will set up the VDI!
 
-### Zoom link
-bit.ly/dl4mia2024
+[**Zoom link**](bit.ly/dl4mia2024)
 
 # DL4MIA 2023: 00 - First steps
 
