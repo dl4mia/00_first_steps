@@ -38,7 +38,7 @@ open your terminal and type:
 
 ```bash
 cd /localscratch/
-git clone  --recurse-submodules https://github.com/dl4mia/DL4MIA_2024.git
+git clone --recurse-submodules https://github.com/dl4mia/DL4MIA_2024.git
 ```
 
 ### Install mamba
