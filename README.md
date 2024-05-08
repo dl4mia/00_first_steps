@@ -53,7 +53,7 @@ What's `mamba`? If you've heard about `conda` then it is the same, just usually 
 
 ### Test mamba
 
-Close your terminal, and re-open it. Then run the following command:
+Restart terminal by typing `exec bash`
 
 ```bash
 whereis mamba
