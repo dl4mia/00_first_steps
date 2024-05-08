@@ -16,7 +16,7 @@ The entire DL4MIA course exercises will take place in the VDI virtual machines.
 
 Here are a few important notes about using the VDI:<br />
 - First, how to find it <br />
-<img width="316" alt="Screenshot 2024-05-07 at 16 41 33" scr="https://github.com/dl4mia/00_first_steps/assets/16350783/682cb301-fea4-410c-95e4-6432dc1e6268">
+![Screenshot 2024-05-07 at 16 41 33](https://github.com/dl4mia/00_first_steps/assets/16350783/01a9a844-14db-465a-b227-6f400982c01a)
 <br />
 - Log in using your username and password and select EMBO-DL4MIA machine.
 - If you have trouble reaching the VDI (black screen then disconnection), let us know.
