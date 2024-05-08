@@ -12,6 +12,10 @@ Welcome to the DL4MIA 2024 first exercise! In this set of exercises, we will set
 
 The entire DL4MIA course exercises will take place in the VDI virtual machines. 
 
+## Notes about the exercises
+
+All exercises for the course can be found in the [**DL4MIA**](https://github.com/dl4mia/DL4MIA_2024/tree/main). Each repository has an exercise sheet detailing the instructions for downloading and installing the exercises.
+
 ## Notes about using the VDI
 
 Here are a few important notes about using the VDI:<br />
@@ -26,12 +30,6 @@ Here are a few important notes about using the VDI:<br />
 
 - Your `/home/` (the folder with your name in it) is on the central storage, which is very slow. We have access to a faster storage `/localscratch/` that you can use for the exercises!
 - We also have a place to share data in `/group/dl4miacourse/`, be aware that permissions should be set so that other people can access it. Ask the tutors!
-
-
-## Notes about the exercises
-
-All exercises for the course can be found in the [**DL4MIA**](https://github.com/dl4mia/DL4MIA_2024/tree/main). Each repository has an exercise sheet detailing the instructions for downloading and installing the exercises.
-
 
 ## Setup
 
